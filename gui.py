@@ -18,7 +18,6 @@ from PIL import Image, ImageTk
 from tkinter import messagebox,filedialog
 import PIL.ImageDraw as ImageDraw,PIL.Image as Image, PIL.ImageShow as ImageShow 
 
-print("Pull request working")
 
 def vp_start_gui():
     '''Starting point when module is the main routine.'''
