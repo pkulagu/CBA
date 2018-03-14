@@ -31,7 +31,6 @@ def vp_start_gui():
     gui_support.init(root, top)
     root.mainloop()
 
-
 def create_KPIT_Annotation_tool(root, *args, **kwargs):
     '''Starting point when module is imported by another program.'''
     global w, w_win, rt
@@ -44,7 +43,6 @@ def create_KPIT_Annotation_tool(root, *args, **kwargs):
 
 def destroy_KPIT_Annotation_tool():
     w.destroy()
-
 
 class KPIT_Annotation_tool:
 
@@ -273,7 +271,7 @@ class KPIT_Annotation_tool:
                 self.op=5
                 self.event()
             
-            #print (msg1)
+        
         
         
         
